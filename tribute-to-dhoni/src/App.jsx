@@ -1,19 +1,20 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 
-import BgImage from './assets/bg.jpg';
-import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home/Home';
-import Contact from './components/contact/Contact';
-import India from "./components/India/India";
-import Csk from "./components/Ipl/Csk";
-import MoreIB from './components/More/MoreIB';
-import MoreIW from './components/More/MoreIw';
-import MoreIC from './components/More/MoreIC';
-import MoreCB from './components/More/MoreCB';
-import MoreCW from './components/More/MoreCW';
-import MoreCC from './components/More/MoreCC';
-import Contibution from './components/Contribution/Contibution';
+import BgImage from '../assets/bg.jpg';
+import Navbar from '../components/Navbar/Navbar';
+import Home from '../components/Home/Home';
+import Contact from '../components/contact/Contact';
+import India from "../components/India/India";
+import Csk from "../components/Ipl/Csk";
+import MoreIB from '../components/More/MoreIB';
+import MoreIW from '../components/More/MoreIw';
+import MoreIC from '../components/More/MoreIC';
+import MoreCB from '../components/More/MoreCB';
+import MoreCW from '../components/More/MoreCW';
+import MoreCC from '../components/More/MoreCC';
+import Contibution from '../components/Contribution/Contibution';
+
 const bgStyle = {
   backgroundImage: `url(${BgImage})`,
   backgroundRepeat: "no-repeat",
