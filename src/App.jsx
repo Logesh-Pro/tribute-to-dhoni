@@ -8,7 +8,7 @@ import Contact from './components/contact/Contact';
 import India from "./components/India/India";
 import Csk from "./components/Ipl/Csk";
 import MoreIB from './components/More/MoreIB';
-import MoreIW from './components/More/MoreIw';
+import MoreIW from './components/More/MoreIW';
 import MoreIC from './components/More/MoreIC';
 import MoreCB from './components/More/MoreCB';
 import MoreCW from './components/More/MoreCW';
