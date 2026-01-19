@@ -6,31 +6,57 @@ const Contribution = () => {
       <section className="w-full max-w-3xl bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl p-8 md:p-12 text-center">
         
         {/* Title */}
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">
+        {/* <h1 className="text-3xl font-bold text-gray-900 mb-4">
           ⭐ My GitHub Contributions
-        </h1>
+        </h1> */}
 
-        {/* GitHub Stars */}
+{/* GitHub Stars Section */}
+<div className="flex flex-col items-center justify-center mb-8">
+  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+    ⭐ Support This Project
+  </h2>
+
+  <a
+    href="https://github.com/logesh-pro/tribute-to-dhoni/tree/main"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transform transition duration-300 hover:scale-110"
+  >
+    <img
+      src="https://img.shields.io/github/stars/logesh-pro/tribute-to-dhoni?style=for-the-badge"
+      alt="GitHub stars"
+      className="h-14 md:h-16"
+    />
+  </a>
+
+  <p className="mt-4 text-gray-600 text-base md:text-lg max-w-md text-center">
+    If you enjoyed this project or found it inspiring,
+    consider giving it a ⭐ on GitHub.  
+    Your support means a lot!
+  </p>
+</div>
+
+        {/* GitHub Stars
         <a
-          href="https://github.com/logesh-pro/YOUR_REPO"
+          href="https://github.com/logesh-pro/tribute-to-dhoni/tree/main"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block mb-6"
         >
           <img
-            src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=social"
+            src="https://img.shields.io/github/stars/logesh-pro/tribute-to-dhoni?style=social"
             alt="GitHub stars"
           />
-        </a>
+        </a> */}
 
         {/* Contribution Graph */}
-        <div className="flex justify-center mb-6">
+        {/* <div className="flex justify-center mb-6">
           <img
-            src="https://ghchart.rshah.org/YOUR_USERNAME"
+            src="https://ghchart.rshah.org/logesh-pro"
             alt="GitHub contribution graph"
             className="rounded-lg max-w-full"
           />
-        </div>
+        </div> */}
 
         {/* Feedback Text */}
         <p className="text-gray-600 text-lg mb-6">
