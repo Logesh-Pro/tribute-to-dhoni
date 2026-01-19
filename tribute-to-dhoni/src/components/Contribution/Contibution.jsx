@@ -66,7 +66,7 @@ const Contribution = () => {
 
         {/* Feedback Button */}
         <a
-          href="https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new"
+          href="https://github.com/logesh-pro/tribute-to-dhoni/issues/new"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-gray-900 text-white font-semibold hover:bg-black transition-all duration-200 hover:scale-105"
