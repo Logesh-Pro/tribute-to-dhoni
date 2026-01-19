@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer components{
+  .container{
+    @apply container md:mx-auto;
+  }
+}
+@layer utilities {
+  .img-shadow {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0,4));
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+.slide-up-delay {
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+@keyframes slidedown {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slidedown 1s ease-out forwards;
+}
+
+.slide-down-delay {
+  animation: slidedown 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@theme {
+  --animate-scroll: scroll 16s linear infinite;
+  --animate-scroll-reverse: scrollReverse 18s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollReverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
